@@ -1,0 +1,402 @@
+[
+    {
+        "name": "Bruno Mars",
+        "id": 178059
+    },
+    {
+        "name": "Taylor Swift",
+        "id": 44266
+    },
+    {
+        "name": "Justin Bieber",
+        "id": 35531
+    },
+    {
+        "name": "The Weeknd",
+        "id": 185858
+    },
+    {
+        "name": "Charlie Puth",
+        "id": 90331
+    },
+    {
+        "name": "Maroon 5",
+        "id": 96266
+    },
+    {
+        "name": "Ed Sheeran",
+        "id": 33184
+    },
+    {
+        "name": "Imagine Dragons",
+        "id": 94779
+    },
+    {
+        "name": "Alan Walker",
+        "id": 1045123
+    },
+    {
+        "name": "Billie Eilish",
+        "id": 11972054
+    },
+    {
+        "name": "XXXTENTACION",
+        "id": 12107961
+    },
+    {
+        "name": "The Chainsmokers",
+        "id": 893484
+    },
+    {
+        "name": "Eminem",
+        "id": 32665
+    },
+    {
+        "name": "Sia",
+        "id": 74625
+    },
+    {
+        "name": "Rihanna",
+        "id": 72724
+    },
+    {
+        "name": "Lana Del Rey",
+        "id": 66212
+    },
+    {
+        "name": "Ariana Grande",
+        "id": 48161
+    },
+    {
+        "name": "OneRepublic",
+        "id": 98105
+    },
+    {
+        "name": "Coldplay",
+        "id": 89365
+    },
+    {
+        "name": "Drake",
+        "id": 53283
+    },
+    {
+        "name": "Troye Sivan",
+        "id": 45129
+    },
+    {
+        "name": "Selena Gomez",
+        "id": 140196
+    },
+    {
+        "name": "keshi",
+        "id": 12544511
+    },
+    {
+        "name": "Lady Gaga",
+        "id": 64147
+    },
+    {
+        "name": "Adele",
+        "id": 46487
+    },
+    {
+        "name": "Shawn Mendes",
+        "id": 956238
+    },
+    {
+        "name": "Vicetone",
+        "id": 747030
+    },
+    {
+        "name": "JVKE",
+        "id": 32988392
+    },
+    {
+        "name": "Lauv",
+        "id": 1057226
+    },
+    {
+        "name": "Anson Seabra",
+        "id": 14470054
+    },
+    {
+        "name": "Linkin Park",
+        "id": 95439
+    },
+    {
+        "name": "Martin Garrix",
+        "id": 780003
+    },
+    {
+        "name": "Lil Tjay",
+        "id": 28391620
+    },
+    {
+        "name": "Travis Scott",
+        "id": 737012
+    },
+    {
+        "name": "Avicii",
+        "id": 45236
+    },
+    {
+        "name": "Michael Jackson",
+        "id": 38853
+    },
+    {
+        "name": "Kanye West",
+        "id": 37520
+    },
+    {
+        "name": "Post Malone",
+        "id": 1057092
+    },
+    {
+        "name": "Doja Cat",
+        "id": 911131
+    },
+    {
+        "name": "Nicki Minaj",
+        "id": 70183
+    },
+    {
+        "name": "Fall Out Boy",
+        "id": 56782
+    },
+    {
+        "name": "Juice WRLD",
+        "id": 13581233
+    },
+    {
+        "name": "Halsey",
+        "id": 964321
+    },
+    {
+        "name": "Kelly Clarkson",
+        "id": 62885
+    },
+    {
+        "name": "Cécile Corbel",
+        "id": 51012
+    },
+    {
+        "name": "Marshmello",
+        "id": 1060019
+    },
+    {
+        "name": "Kendrick Lamar",
+        "id": 37995
+    },
+    {
+        "name": "Rich Brian",
+        "id": 12024301
+    },
+    {
+        "name": "21 Savage",
+        "id": 12062134
+    },
+    {
+        "name": "Max Oazo",
+        "id": 13159084
+    },
+    {
+        "name": "Carly Rae Jepsen",
+        "id": 50934
+    },
+    {
+        "name": "Wiz Khalifa",
+        "id": 46006
+    },
+    {
+        "name": "Sabrina Carpenter",
+        "id": 77993
+    },
+    {
+        "name": "Queen",
+        "id": 41906
+    },
+    {
+        "name": "Avril Lavigne",
+        "id": 46490
+    },
+    {
+        "name": "Giveon",
+        "id": 32396647
+    },
+    {
+        "name": "Dua Lipa",
+        "id": 1135086
+    },
+    {
+        "name": "Mariah Carey",
+        "id": 66355
+    },
+    {
+        "name": "Sasha Alex Sloan",
+        "id": 12646102
+    },
+    {
+        "name": "Tinashe",
+        "id": 45221
+    },
+    {
+        "name": "SZA",
+        "id": 905232
+    },
+    {
+        "name": "Sam Smith",
+        "id": 740216
+    },
+    {
+        "name": "Lil Uzi Vert",
+        "id": 1180075
+    },
+    {
+        "name": "Future",
+        "id": 33794
+    },
+    {
+        "name": "Alec Benjamin",
+        "id": 1028104
+    },
+    {
+        "name": "JORDANN",
+        "id": 338718
+    },
+    {
+        "name": "Lindsey Stirling",
+        "id": 66225
+    },
+    {
+        "name": "MADILYN",
+        "id": 69270
+    },
+    {
+        "name": "Calvin Harris",
+        "id": 29968
+    },
+    {
+        "name": "Westlife",
+        "id": 45839
+    },
+    {
+        "name": "Adam Lambert",
+        "id": 27604
+    },
+    {
+        "name": "One Direction",
+        "id": 98351
+    },
+    {
+        "name": "Daft Punk",
+        "id": 90513
+    },
+    {
+        "name": "Britney Spears",
+        "id": 48432
+    },
+    {
+        "name": "bbno$",
+        "id": 12054171
+    },
+    {
+        "name": "Lil Wayne",
+        "id": 38118
+    },
+    {
+        "name": "NIKI",
+        "id": 473353
+    },
+    {
+        "name": "Camila Cabello",
+        "id": 12136039
+    },
+    {
+        "name": "R3HAB",
+        "id": 197248
+    },
+    {
+        "name": "Russ",
+        "id": 241588
+    },
+    {
+        "name": "Glass Animals",
+        "id": 847346
+    },
+    {
+        "name": "AURORA",
+        "id": 1043338
+    },
+    {
+        "name": "Shiloh Dynasty",
+        "id": 12647577
+    },
+    {
+        "name": "The Kid LAROI",
+        "id": 32795025
+    },
+    {
+        "name": "Walk off the Earth",
+        "id": 105493
+    },
+    {
+        "name": "Ellie Goulding",
+        "id": 56598
+    },
+    {
+        "name": "Tyga",
+        "id": 45033
+    },
+    {
+        "name": "Kesha",
+        "id": 63901
+    },
+    {
+        "name": "David Guetta",
+        "id": 31211
+    },
+    {
+        "name": "Justin Timberlake",
+        "id": 35331
+    },
+    {
+        "name": "Beyoncé",
+        "id": 48436
+    },
+    {
+        "name": "Katy Perry",
+        "id": 62888
+    },
+    {
+        "name": "Playboi Carti",
+        "id": 12068095
+    },
+    {
+        "name": "Bôa",
+        "id": 88189
+    },
+    {
+        "name": "ILLENIUM",
+        "id": 1050518
+    },
+    {
+        "name": "Jake Miller",
+        "id": 776761
+    },
+    {
+        "name": "Daniel Caesar",
+        "id": 1021293
+    },
+    {
+        "name": "INNA",
+        "id": 60848
+    },
+    {
+        "name": "Moonessa",
+        "id": 29834706
+    },
+    {
+        "name": "Khalid",
+        "id": 301757
+    }
+]
