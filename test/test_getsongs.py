@@ -1,7 +1,6 @@
 # test_getsongs.py
 import os
 import time
-
 import requests
 import json
 
@@ -35,8 +34,8 @@ def get_songs_from_singer(singer_id):
 
     return songs
 
-def get_songs_from_singers():
-    with open('欧美_singers.json', 'r', encoding='utf-8') as f:
+def get_songs_from_singers(file_path, output_file):
+    with open(file_path, 'r', encoding='utf-8') as f:
         singers = json.load(f)
 
     all_songs = []
@@ -57,10 +56,17 @@ def get_songs_from_singers():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    with open(os.path.join(output_dir, '欧美_songs.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(output_dir, output_file), 'w', encoding='utf-8') as f:
         json.dump(all_songs, f, ensure_ascii=False, indent=4)
 
-    print("所有歌手的前20首歌曲信息已保存到 欧美_songs.json")
+    print(f"所有歌手的前20首歌曲信息已保存到 {output_file}")
 
 if __name__ == "__main__":
-    get_songs_from_singers()
+    # 获取欧美歌手的歌曲信息(爬过了)
+    # get_songs_from_singers('欧美_singers.json', '欧美_songs.json')
+
+    # 获取国内歌手的歌曲信息
+    get_songs_from_singers('国内_singers.json', '国内_songs.json')
+    time.sleep(60)
+    # 获取日本歌手的歌曲信息
+    get_songs_from_singers('日本_singers.json', '日本_songs.json')
