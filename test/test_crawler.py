@@ -93,7 +93,10 @@ def main():
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
-        with open(input_file, 'r', encoding='utf-8') as f:
+        # 构建完整的输入文件路径
+        input_file_path = os.path.join(output_dir, input_file)
+
+        with open(input_file_path, 'r', encoding='utf-8') as f:
             songs = json.load(f)
 
         with open(os.path.join(output_dir, output_file), 'w', encoding='utf-8-sig') as f:
