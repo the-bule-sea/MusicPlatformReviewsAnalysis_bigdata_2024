@@ -49,6 +49,7 @@ def get_comments(song_id, page):
     result = json.loads(response.text)
     items = result['comments']
     time.sleep(1)
+    comments = []
     for item in items:
         # 用户名
         user_name = item['user']['nickname'].replace(',', '，')
@@ -73,9 +74,9 @@ def get_comments(song_id, page):
         # 评论时间
         date = time.localtime(int(str(item['time'])[:10]))
         date = time.strftime("%Y-%m-%d %H:%M:%S", date)
-        print(user_name, user_id, user_age, user_gender, user_city, user_introduce, comment, comment_id, praise, date)
-
-        return user_name, user_id, user_age, user_gender, user_city, user_introduce, comment, comment_id, praise, date
+        comments.append((user_name, user_id, user_age, user_gender, user_city, user_introduce, comment, comment_id, praise, date))
+        print((user_name, user_id, user_age, user_gender, user_city, user_introduce, comment, comment_id, praise, date))
+    return comments
 
 def save_comments_to_csv(comments, file_path):
     with open(file_path, 'a', encoding='utf-8-sig') as f:
@@ -105,16 +106,16 @@ def main():
         for song in songs:
             song_id = song['song_id']
             print(f'正在获取歌曲 {song["song_name"]} ({song_id}) 的评论')
-            comments = []
+            all_comments = []
             for page in range(0, 1060, 20):
                 print(f'\n---------------第 {page // 20 + 1} 页---------------')
                 try:
-                    comment_data = get_comments(song_id, page)
-                    comments.append(comment_data)
+                    comments = get_comments(song_id, page)
+                    all_comments.extend(comments)
                 except Exception as e:
                     print(f'获取评论失败: {e}')
                     break
-            save_comments_to_csv(comments, os.path.join(output_dir, output_file))
+            save_comments_to_csv(all_comments, os.path.join(output_dir, output_file))
             time.sleep(60)  # 每次获取完一首歌的评论后暂停60秒
 
 if __name__ == '__main__':
