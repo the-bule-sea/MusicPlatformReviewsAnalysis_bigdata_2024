@@ -43,7 +43,7 @@ def get_comments(song_id, page):
     """
     获取评论信息
     """
-    url = f'http://music.163.com/api/v1/resource/comments/R_SO_4_{song_id}?limit=100&offset={page}'
+    url = f'http://music.163.com/api/v1/resource/comments/R_SO_4_{song_id}?limit=20&offset={page}'
     response = requests.get(url=url, headers=headers)
     # 将字符串转为json格式
     result = json.loads(response.text)
