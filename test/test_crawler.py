@@ -81,7 +81,7 @@ def get_comments(page):
 
 def main():
     # 步长为20
-    for i in range(0, 1006, 20):
+    for i in range(0, 1060, 20):
         print('\n---------------第 ' + str(i // 20 + 1) + ' 页---------------')
         get_comments(i)
 
