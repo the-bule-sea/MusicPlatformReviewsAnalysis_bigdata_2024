@@ -107,7 +107,7 @@ def main():
             song_id = song['song_id']
             print(f'正在获取歌曲 {song["song_name"]} ({song_id}) 的评论')
             all_comments = []
-            for page in range(0, 1060, 20):
+            for page in range(0, 1020, 20):
                 print(f'\n---------------第 {page // 20 + 1} 页---------------')
                 try:
                     comments = get_comments(song_id, page)
