@@ -1,0 +1,402 @@
+[
+    {
+        "singer_id": 49236,
+        "singer_mid": "000LExWa0hMj4m",
+        "name": "米津玄師 (よねづ けんし)"
+    },
+    {
+        "singer_id": 9962,
+        "singer_mid": "000f1b6W1wzyRN",
+        "name": "RADWIMPS (ラッドウィンプス)"
+    },
+    {
+        "singer_id": 33716,
+        "singer_mid": "0039EKtl4ec7wv",
+        "name": "Aimer (エメ)"
+    },
+    {
+        "singer_id": 19855,
+        "singer_mid": "003q7Y431JXtUn",
+        "name": "DAISHI DANCE (ダイシ・ダンス)"
+    },
+    {
+        "singer_id": 5161,
+        "singer_mid": "003GBWij2kV7Tg",
+        "name": "久石让 (ひさいし じょう)"
+    },
+    {
+        "singer_id": 40088,
+        "singer_mid": "002QnBvg3hfrW1",
+        "name": "LiSA (织部里沙)"
+    },
+    {
+        "singer_id": 5087,
+        "singer_mid": "002JptyK0sIn6P",
+        "name": "宇多田光 (宇多田ヒカル)"
+    },
+    {
+        "singer_id": 19549,
+        "singer_mid": "0023TUOS0vGD8C",
+        "name": "澤野弘之 (さわの ひろゆき)"
+    },
+    {
+        "singer_id": 19508,
+        "singer_mid": "002k4eTx0wxDFm",
+        "name": "DJ OKAWARI"
+    },
+    {
+        "singer_id": 15508,
+        "singer_mid": "002lBFx53dUIpQ",
+        "name": "WANDS (ワンズ)"
+    },
+    {
+        "singer_id": 5425,
+        "singer_mid": "003XJICg2VKysP",
+        "name": "中岛美嘉 (なかしま みか)"
+    },
+    {
+        "singer_id": 20178,
+        "singer_mid": "003jh3mG1KVEgD",
+        "name": "花澤香菜 (はなざわ かな)"
+    },
+    {
+        "singer_id": 42621,
+        "singer_mid": "003MYChw3eOz33",
+        "name": "和田光司 (わだ こうじ)"
+    },
+    {
+        "singer_id": 90185,
+        "singer_mid": "002jWeWR3qL52H",
+        "name": "和田薫 (わだかおる)"
+    },
+    {
+        "singer_id": 11851,
+        "singer_mid": "003Dlry81NuWSO",
+        "name": "生物股长 (いきものがかり)"
+    },
+    {
+        "singer_id": 12767,
+        "singer_mid": "004fhEB92mYy9u",
+        "name": "宗次郎 (そうじろう)"
+    },
+    {
+        "singer_id": 205414,
+        "singer_mid": "003sjS913lTCNu",
+        "name": "鎖那 (さな)"
+    },
+    {
+        "singer_id": 28790,
+        "singer_mid": "003b7byz4JUrXQ",
+        "name": "高梨康治 (たかなし やすはる)"
+    },
+    {
+        "singer_id": 4800,
+        "singer_mid": "000bzeAd1jLft0",
+        "name": "滨崎步 (浜崎あゆみ)"
+    },
+    {
+        "singer_id": 365864,
+        "singer_mid": "001pU0uP3NkGza",
+        "name": "majiko (まじ娘)"
+    },
+    {
+        "singer_id": 181157,
+        "singer_mid": "0006c3Oz12Ipwq",
+        "name": "TK from 凛冽时雨 (TK from 凛として時雨)"
+    },
+    {
+        "singer_id": 181368,
+        "singer_mid": "003xVwF32VaW5k",
+        "name": "GARNiDELiA (ガルニデリア)"
+    },
+    {
+        "singer_id": 63263,
+        "singer_mid": "004BsEon35Mmxz",
+        "name": "茅野愛衣 (かやの あい)"
+    },
+    {
+        "singer_id": 5438,
+        "singer_mid": "002qS3if49uvn0",
+        "name": "仓木麻衣 (くらき まい)"
+    },
+    {
+        "singer_id": 23686,
+        "singer_mid": "000z1eIw0dinnc",
+        "name": "BAAD (バード)"
+    },
+    {
+        "singer_id": 8042,
+        "singer_mid": "0017stGM0PEDyI",
+        "name": "S.E.N.S. (神思者)"
+    },
+    {
+        "singer_id": 14504,
+        "singer_mid": "0007x1RE3c4jEk",
+        "name": "初音未来 (初音ミク)"
+    },
+    {
+        "singer_id": 9249,
+        "singer_mid": "001GagQv06BMLa",
+        "name": "坂本龙一 (さかもと りゅういち)"
+    },
+    {
+        "singer_id": 5431,
+        "singer_mid": "001bsZns078Teb",
+        "name": "中岛美雪 (中島みゆき)"
+    },
+    {
+        "singer_id": 5642,
+        "singer_mid": "002tPHTQ4KHAvO",
+        "name": "m.o.v.e"
+    },
+    {
+        "singer_id": 940369,
+        "singer_mid": "003T0Ghz4KMK5W",
+        "name": "三轮学 (Manack)"
+    },
+    {
+        "singer_id": 28658,
+        "singer_mid": "003VvRDb4IIGeg",
+        "name": "Key Sounds Label (キー・サウンズ・レーベル)"
+    },
+    {
+        "singer_id": 66380,
+        "singer_mid": "000RcN3O3pLCLj",
+        "name": "宮崎歩 (みやざき あゆみ)"
+    },
+    {
+        "singer_id": 5547,
+        "singer_mid": "004eMVZz3qRoP5",
+        "name": "KOKIA (吉田亚纪子)"
+    },
+    {
+        "singer_id": 5426,
+        "singer_mid": "004P4J0D0bAzf3",
+        "name": "ZARD (ザード)"
+    },
+    {
+        "singer_id": 16092,
+        "singer_mid": "003eL7xS1j0iBk",
+        "name": "川井宪次 (かわい けんじ)"
+    },
+    {
+        "singer_id": 12168,
+        "singer_mid": "002FliHF1E1pv4",
+        "name": "ONE OK ROCK (ワンオクロック)"
+    },
+    {
+        "singer_id": 27400,
+        "singer_mid": "001SCTJr2UHUcz",
+        "name": "矶村由纪子 (磯村由紀子)"
+    },
+    {
+        "singer_id": 25855,
+        "singer_mid": "004PT6gg3cLvxv",
+        "name": "鹿乃 (かの)"
+    },
+    {
+        "singer_id": 9495,
+        "singer_mid": "004N8pCJ2r4K1w",
+        "name": "V6 (ブイシックス)"
+    },
+    {
+        "singer_id": 24520,
+        "singer_mid": "001qOC9S113oJ2",
+        "name": "高桥优 (たかはし ゆう)"
+    },
+    {
+        "singer_id": 1009537,
+        "singer_mid": "002H8Y1e2jcnbv",
+        "name": "MYTH & ROID"
+    },
+    {
+        "singer_id": 37651,
+        "singer_mid": "004P3b6W2VQWqw",
+        "name": "EGOIST (エゴイスト)"
+    },
+    {
+        "singer_id": 24765,
+        "singer_mid": "000wG7Zt1SVDBX",
+        "name": "天门 (てんもん)"
+    },
+    {
+        "singer_id": 66693,
+        "singer_mid": "002qXxjQ20Kqyt",
+        "name": "Linked Horizon"
+    },
+    {
+        "singer_id": 126,
+        "singer_mid": "0000akr80SV6Eh",
+        "name": "小野丽莎 (小野リサ)"
+    },
+    {
+        "singer_id": 51684,
+        "singer_mid": "003twq0b2WA5vG",
+        "name": "Goose house (グースハウス)"
+    },
+    {
+        "singer_id": 40365,
+        "singer_mid": "001WZX3a3Tpt7R",
+        "name": "吉森信 (よしもり まこと)"
+    },
+    {
+        "singer_id": 44507,
+        "singer_mid": "002ZwrKF3IFGtg",
+        "name": "a_hisa"
+    },
+    {
+        "singer_id": 952747,
+        "singer_mid": "001YpeWE18tFes",
+        "name": "爱缪 (あいみょん)"
+    },
+    {
+        "singer_id": 1122567,
+        "singer_mid": "000HV9mD3U8apY",
+        "name": "Valentin (ヴァレンティン)"
+    },
+    {
+        "singer_id": 36482,
+        "singer_mid": "0038nXo43fClww",
+        "name": "横山克 (よこやま まさる)"
+    },
+    {
+        "singer_id": 167856,
+        "singer_mid": "001Gx4680VuDIT",
+        "name": "出羽良彰 (でわ よしあき)"
+    },
+    {
+        "singer_id": 5590,
+        "singer_mid": "003OJE7E2N24gf",
+        "name": "doa"
+    },
+    {
+        "singer_id": 5029,
+        "singer_mid": "002asTZA0NAIIU",
+        "name": "玉置浩二 (たまき こうじ)"
+    },
+    {
+        "singer_id": 19546,
+        "singer_mid": "001wELbX1tO9es",
+        "name": "林友树 (林ゆうき)"
+    },
+    {
+        "singer_id": 12667,
+        "singer_mid": "002Roplw11e76c",
+        "name": "青山黛玛 (青山テルマ)"
+    },
+    {
+        "singer_id": 40091,
+        "singer_mid": "002nnqtF0UjYQM",
+        "name": "Otokaze"
+    },
+    {
+        "singer_id": 10671,
+        "singer_mid": "000DQnc22YnDJM",
+        "name": "fripSide (フリップサイド)"
+    },
+    {
+        "singer_id": 161586,
+        "singer_mid": "003AAGr94BJwyz",
+        "name": "4円 (ヨエン)"
+    },
+    {
+        "singer_id": 5489,
+        "singer_mid": "004UzKEB2DtZpQ",
+        "name": "大黒摩季 (おおぐろ まき)"
+    },
+    {
+        "singer_id": 64969,
+        "singer_mid": "001kczz03DixIz",
+        "name": "増田俊郎 (ますだ としお)"
+    },
+    {
+        "singer_id": 38239,
+        "singer_mid": "004V09np3I1z0u",
+        "name": "岸部真明 (Masaaki Kishibe)"
+    },
+    {
+        "singer_id": 29629,
+        "singer_mid": "000UxMkW4RxpBD",
+        "name": "花たん (花糖)"
+    },
+    {
+        "singer_id": 12677,
+        "singer_mid": "0022PHem4L6smh",
+        "name": "秦基博 (はたもとひろ)"
+    },
+    {
+        "singer_id": 6936,
+        "singer_mid": "004bzYYO0qUNXI",
+        "name": "手嶌葵 (てしま あおい)"
+    },
+    {
+        "singer_id": 11594,
+        "singer_mid": "004TrAG72SUM0V",
+        "name": "V.A."
+    },
+    {
+        "singer_id": 175428,
+        "singer_mid": "001oSs0x2D8FAG",
+        "name": "小林未郁 (こばやし みか)"
+    },
+    {
+        "singer_id": 12582,
+        "singer_mid": "001QrtKv1kbLMI",
+        "name": "沐月 (moumoon)"
+    },
+    {
+        "singer_id": 26734,
+        "singer_mid": "003c4Pi14CtfaG",
+        "name": "阿南亮子 (あなん りょうこ)"
+    },
+    {
+        "singer_id": 33387,
+        "singer_mid": "002EzzAu3VhfAe",
+        "name": "大野克夫 (おおの かつお)"
+    },
+    {
+        "singer_id": 33408,
+        "singer_mid": "003Px3aO1rwTgS",
+        "name": "横山菁児 (横山菁儿)"
+    },
+    {
+        "singer_id": 22473,
+        "singer_mid": "003OaexB0iLrmW",
+        "name": "SPYAIR (スパイエアー)"
+    },
+    {
+        "singer_id": 165909,
+        "singer_mid": "004gbK7Y0nL8I8",
+        "name": "雨宮天 (あまみや そら)"
+    },
+    {
+        "singer_id": 56021,
+        "singer_mid": "004VOa3p4GFA48",
+        "name": "铃木木乃美 (鈴木このみ)"
+    },
+    {
+        "singer_id": 24046,
+        "singer_mid": "001ySiRc4MMMi2",
+        "name": "松本梨香 (まつもと りか)"
+    },
+    {
+        "singer_id": 5274,
+        "singer_mid": "0048YvVA0JHJh0",
+        "name": "Lia (りあ)"
+    },
+    {
+        "singer_id": 13447,
+        "singer_mid": "001SXQJS2TXguQ",
+        "name": "RSP (Real Street Performance)"
+    },
+    {
+        "singer_id": 5414,
+        "singer_mid": "001KKv0I3wnmK8",
+        "name": "YUI (ユイ)"
+    },
+    {
+        "singer_id": 5406,
+        "singer_mid": "002YEHIx2V8vtA",
+        "name": "西村由纪江 (にしむら ゆきえ)"
+    }
+]

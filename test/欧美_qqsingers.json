@@ -1,0 +1,402 @@
+[
+    {
+        "singer_id": 944940,
+        "singer_mid": "0020PeOh4ZaCw1",
+        "name": "Alan Walker (艾兰·沃克)"
+    },
+    {
+        "singer_id": 11921,
+        "singer_mid": "000qrPik2w6lDr",
+        "name": "Taylor Swift (泰勒·斯威夫特)"
+    },
+    {
+        "singer_id": 27158,
+        "singer_mid": "003W0GsQ2bAxVU",
+        "name": "Imagine Dragons (梦龙)"
+    },
+    {
+        "singer_id": 173914,
+        "singer_mid": "003AD17D4PYPFR",
+        "name": "Vicetone"
+    },
+    {
+        "singer_id": 7015,
+        "singer_mid": "004ItgA32BhfdC",
+        "name": "Sia (希雅)"
+    },
+    {
+        "singer_id": 29222,
+        "singer_mid": "0045p4Sz0LIwL5",
+        "name": "Ed Sheeran (艾德·希兰)"
+    },
+    {
+        "singer_id": 16257,
+        "singer_mid": "002DYpxl3hW3EP",
+        "name": "Justin Bieber (贾斯汀·比伯)"
+    },
+    {
+        "singer_id": 948064,
+        "singer_mid": "0000RHdG1ukDqy",
+        "name": "英雄联盟 (League of Legends)"
+    },
+    {
+        "singer_id": 156095,
+        "singer_mid": "004ABIFV1EZUAj",
+        "name": "The Chainsmokers"
+    },
+    {
+        "singer_id": 4983,
+        "singer_mid": "001JuGrt372YIQ",
+        "name": "Maroon 5 (魔力红)"
+    },
+    {
+        "singer_id": 196676,
+        "singer_mid": "001NODJ71LGPD5",
+        "name": "Shawn Mendes (肖恩·蒙德兹)"
+    },
+    {
+        "singer_id": 39000,
+        "singer_mid": "000jnR7q3pCzYG",
+        "name": "Charlie Puth (查理·普斯)"
+    },
+    {
+        "singer_id": 2077,
+        "singer_mid": "004VSazN1HfDlw",
+        "name": "Achim Reichel"
+    },
+    {
+        "singer_id": 12578,
+        "singer_mid": "003CoxJh1zFPpx",
+        "name": "Adele (阿黛尔)"
+    },
+    {
+        "singer_id": 160774,
+        "singer_mid": "003gHa6S2vmcbq",
+        "name": "Martin Garrix (马丁·盖瑞斯)"
+    },
+    {
+        "singer_id": 38418,
+        "singer_mid": "004eTCF03KvBOE",
+        "name": "Ariana Grande (爱莉安娜·格兰德)"
+    },
+    {
+        "singer_id": 1124294,
+        "singer_mid": "0034MZS446AF7O",
+        "name": "Billie Eilish"
+    },
+    {
+        "singer_id": 21414,
+        "singer_mid": " ",
+        "name": "Bruno Mars (布鲁诺·马尔斯)"
+    },
+    {
+        "singer_id": 25620,
+        "singer_mid": "000n2g6N3AcFT5",
+        "name": "Rachel Platten (瑞秋·普蕾顿)"
+    },
+    {
+        "singer_id": 25115,
+        "singer_mid": "004LhKMW2CWJox",
+        "name": "Troye Sivan (特洛耶·希文)"
+    },
+    {
+        "singer_id": 1007639,
+        "singer_mid": "004bkgRA2eGJyK",
+        "name": "K-391"
+    },
+    {
+        "singer_id": 28846,
+        "singer_mid": "001jgAtj3LtJnE",
+        "name": "Avicii (艾维奇)"
+    },
+    {
+        "singer_id": 12978,
+        "singer_mid": "000CQ06r24Naco",
+        "name": "Wiz Khalifa (维兹·卡利法)"
+    },
+    {
+        "singer_id": 550,
+        "singer_mid": "0038poo73TW3Pa",
+        "name": "Richard Clayderman (理查德·克莱德曼)"
+    },
+    {
+        "singer_id": 4825,
+        "singer_mid": "002OSfGH2iq7wx",
+        "name": "Daniel Powter (丹尼尔·波特)"
+    },
+    {
+        "singer_id": 4659,
+        "singer_mid": "0034b6ah1V4ZPk",
+        "name": "Kelly Clarkson (凯丽.克拉克森)"
+    },
+    {
+        "singer_id": 4404,
+        "singer_mid": "002uNtOf2Xj5eB",
+        "name": "Westlife (西城男孩)"
+    },
+    {
+        "singer_id": 13769,
+        "singer_mid": "001D3C3T2wxP74",
+        "name": "Lady Gaga"
+    },
+    {
+        "singer_id": 24889,
+        "singer_mid": "002Vj8o12l10eK",
+        "name": "Two Steps From Hell (两步逃离地狱)"
+    },
+    {
+        "singer_id": 2923,
+        "singer_mid": "003wI8vE3k8cTY",
+        "name": "Linkin Park (林肯公园)"
+    },
+    {
+        "singer_id": 13554,
+        "singer_mid": "004RKkVx1tZcSC",
+        "name": "Calvin Harris (加尔文·哈里斯)"
+    },
+    {
+        "singer_id": 182599,
+        "singer_mid": "000wOH7L3UPfa2",
+        "name": "Doja Cat"
+    },
+    {
+        "singer_id": 4880,
+        "singer_mid": "000yDAjj2TE9j8",
+        "name": "Eminem (埃米纳姆)"
+    },
+    {
+        "singer_id": 4868,
+        "singer_mid": "003CKb192ggBqi",
+        "name": "Fall Out Boy"
+    },
+    {
+        "singer_id": 22785,
+        "singer_mid": "001RRlcX2n2NLs",
+        "name": "Olly Murs"
+    },
+    {
+        "singer_id": 6966,
+        "singer_mid": "002MiBdR19HQWx",
+        "name": "Rihanna (蕾哈娜)"
+    },
+    {
+        "singer_id": 53518,
+        "singer_mid": "002cJUME2GGBOT",
+        "name": "Zedd"
+    },
+    {
+        "singer_id": 169505,
+        "singer_mid": "000N66sR0OvOF9",
+        "name": "Hillsong Young & Free (新頌青年＆自由)"
+    },
+    {
+        "singer_id": 12211,
+        "singer_mid": "0004LscG3FtUDz",
+        "name": "OneRepublic (共和时代)"
+    },
+    {
+        "singer_id": 43197,
+        "singer_mid": "0046fVNz3ruk2r",
+        "name": "Selena Gomez (赛琳娜·戈麦斯)"
+    },
+    {
+        "singer_id": 965,
+        "singer_mid": "000gELB619OfVG",
+        "name": "David Guetta (大卫.格塔)"
+    },
+    {
+        "singer_id": 290,
+        "singer_mid": "001MXQUi1tlLon",
+        "name": "Coldplay (酷玩乐队)"
+    },
+    {
+        "singer_id": 12926,
+        "singer_mid": "002a1DuK4evNsR",
+        "name": "Owl City (猫头鹰之城)"
+    },
+    {
+        "singer_id": 4718,
+        "singer_mid": "001HH3WP0nbf4N",
+        "name": "P!NK (红粉佳人)"
+    },
+    {
+        "singer_id": 160879,
+        "singer_mid": "002aFRpO1dMtfw",
+        "name": "Clean Bandit (清洁盗贼)"
+    },
+    {
+        "singer_id": 4417,
+        "singer_mid": "001Ic36m4AhaBw",
+        "name": "Avril Lavigne (艾薇儿)"
+    },
+    {
+        "singer_id": 4660,
+        "singer_mid": "000zzzra2D2Stn",
+        "name": "Mariah Carey (玛丽亚·凯莉)"
+    },
+    {
+        "singer_id": 4712,
+        "singer_mid": "001Y2Gbc2Xt1hU",
+        "name": "Michael Jackson (迈克尔·杰克逊)"
+    },
+    {
+        "singer_id": 204479,
+        "singer_mid": "000B32Gi2wEXWq",
+        "name": "Lost Frequencies"
+    },
+    {
+        "singer_id": 1104128,
+        "singer_mid": "003T09nh37Pq4N",
+        "name": "Marshmello (棉花糖)"
+    },
+    {
+        "singer_id": 25508,
+        "singer_mid": "004fW1lZ1t6XaQ",
+        "name": "Conor Maynard"
+    },
+    {
+        "singer_id": 168321,
+        "singer_mid": "0026mEMJ1LCsbT",
+        "name": "TheFatRat"
+    },
+    {
+        "singer_id": 36434,
+        "singer_mid": "0040HbAd0HG7N5",
+        "name": "Lana Del Rey (拉娜·德雷)"
+    },
+    {
+        "singer_id": 10265,
+        "singer_mid": "001YMoro1NL5hU",
+        "name": "Ellie Goulding"
+    },
+    {
+        "singer_id": 66069,
+        "singer_mid": "00220AYa4Ohak5",
+        "name": "Feint"
+    },
+    {
+        "singer_id": 34782,
+        "singer_mid": "004cnBXB1OBN7m",
+        "name": "Carly Rae Jepsen"
+    },
+    {
+        "singer_id": 11790,
+        "singer_mid": "0019fymM3ZZ1oi",
+        "name": "Timbaland (提姆巴兰)"
+    },
+    {
+        "singer_id": 4891,
+        "singer_mid": "001CmAqB4LJV0u",
+        "name": "Groove Coverage (舞动精灵乐团)"
+    },
+    {
+        "singer_id": 12740,
+        "singer_mid": "001IKmTG2BVhJp",
+        "name": "Flo Rida"
+    },
+    {
+        "singer_id": 24561,
+        "singer_mid": "001FXn5P0kkWfV",
+        "name": "One Direction"
+    },
+    {
+        "singer_id": 34166,
+        "singer_mid": "000CNXu71VVyXU",
+        "name": "R3HAB"
+    },
+    {
+        "singer_id": 15579,
+        "singer_mid": "002i29r43wE9II",
+        "name": "Cash Cash"
+    },
+    {
+        "singer_id": 980485,
+        "singer_mid": "002zDOLP0EhFt8",
+        "name": "ZAYN (泽恩)"
+    },
+    {
+        "singer_id": 19258,
+        "singer_mid": "000qLy4P0Lv0tl",
+        "name": "Deep Side (Git Fresh)"
+    },
+    {
+        "singer_id": 4761,
+        "singer_mid": "003KHAR40ycCk3",
+        "name": "Justin Timberlake (贾斯汀·汀布莱克)"
+    },
+    {
+        "singer_id": 14000,
+        "singer_mid": "001YBQ2f1IVTe2",
+        "name": "Lenka (兰卡)"
+    },
+    {
+        "singer_id": 13157,
+        "singer_mid": "004PTEQR3C16SV",
+        "name": "Katy Perry (凯蒂·佩里)"
+    },
+    {
+        "singer_id": 7065,
+        "singer_mid": "000Tnqu44J2Ndk",
+        "name": "Bandari (班得瑞)"
+    },
+    {
+        "singer_id": 32617,
+        "singer_mid": "004YnseG2vQN7h",
+        "name": "The Weeknd"
+    },
+    {
+        "singer_id": 5079,
+        "singer_mid": "002KTnqQ0l2975",
+        "name": "Queen (皇后乐队)"
+    },
+    {
+        "singer_id": 1018405,
+        "singer_mid": "0015cdSZ1a29mg",
+        "name": "Dua Lipa"
+    },
+    {
+        "singer_id": 1059173,
+        "singer_mid": "003Q2a8W21Zv1q",
+        "name": "Camila Cabello (卡米拉·卡贝洛)"
+    },
+    {
+        "singer_id": 174185,
+        "singer_mid": "003hyJQg0Mc80t",
+        "name": "DJ Snake"
+    },
+    {
+        "singer_id": 4681,
+        "singer_mid": "000OYo204PAGqw",
+        "name": "James Blunt (詹姆斯.布朗特)"
+    },
+    {
+        "singer_id": 968065,
+        "singer_mid": "000IDHDK3CxrAZ",
+        "name": "Post Malone"
+    },
+    {
+        "singer_id": 20346,
+        "singer_mid": "000QmvRp2929hJ",
+        "name": "Kesha (凯莎)"
+    },
+    {
+        "singer_id": 453,
+        "singer_mid": "003ScO1y3c5a0H",
+        "name": "Michael Learns To Rock (迈克学摇滚)"
+    },
+    {
+        "singer_id": 27593,
+        "singer_mid": "003xi10A1l7zjv",
+        "name": "Asher Monroe"
+    },
+    {
+        "singer_id": 4736,
+        "singer_mid": "002Emc4e1ThiNZ",
+        "name": "Akon (阿肯)"
+    },
+    {
+        "singer_id": 70651,
+        "singer_mid": "003qGjxe4e4Npn",
+        "name": "Charli XCX"
+    }
+]
