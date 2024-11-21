@@ -30,12 +30,19 @@ headers = {
     'User-Agent': random.choice(user_agent_pool)
 }
 
-def get_comments_qq(song_id, page):
+def get_comments_qq(song_id, page, proxies):
     """
     获取QQ音乐评论信息
     """
     url = f'https://c.y.qq.com/base/fcgi-bin/fcg_global_comment_h5.fcg?biztype=1&topid={song_id}&cmd=8&pagenum={page}&pagesize=25'
-    response = requests.get(url=url, headers=headers)
+    # 随机挑选代理ip
+    proxy = random.choice(proxies)
+    proxy_dict = {
+        'http': f'http://{proxy}',
+        'https': f'http://{proxy}'
+    }
+
+    response = requests.get(url=url, headers=headers, proxies=proxy_dict)
     if response.status_code != 200:
         print(f"请求歌曲 {song_id} 的评论失败")
         return []
@@ -46,9 +53,14 @@ def get_comments_qq(song_id, page):
         return []
 
     comments = []
+    time.sleep(1)
     for comment_type in ['comment', 'hot_comment']:
         if comment_type in data and 'commentlist' in data[comment_type]:
             for item in data[comment_type]['commentlist']:
+                # 检查是否存在 rootcommentnick
+                if 'rootcommentnick' not in item:
+                    continue
+
                 # 评论ID
                 comment_id = item['commentid']
                 # 评论用户
@@ -60,8 +72,8 @@ def get_comments_qq(song_id, page):
                 # 评论时间
                 date = time.localtime(int(item['time']))
                 date = time.strftime("%Y-%m-%d %H:%M:%S", date)
-                comments.append((comment_id, comment_user, comment_content,  praise, date))
-                print((comment_id, comment_user, comment_content,  praise, date))
+                comments.append((comment_id, comment_user, comment_content, praise, date))
+                print((comment_id, comment_user, comment_content, praise, date))
     return comments
 
 def save_comments_to_csv(comments, file_path):
@@ -69,8 +81,17 @@ def save_comments_to_csv(comments, file_path):
         for comment in comments:
             f.write(','.join(comment) + '\n')
 
+def load_proxies(proxy_file_path):
+    with open(proxy_file_path, 'r') as f:
+        proxies = [line.strip() for line in f.readline()]
+    return proxies
+
 def main():
-    regions = ['欧美', '国内', '日本']
+    regions = ['日本2','国内2','欧美2']
+    #  加载ip池
+    proxy_file_path = 'proxy.txt'
+    proxies = load_proxies(proxy_file_path)
+
     for region in regions:
         input_file = f'{region}_qqsongs.json'
         output_file = f'{region}_qq_music_comments.csv'
@@ -87,7 +108,7 @@ def main():
             songs = json.load(f)
 
         with open(os.path.join(output_dir, output_file), 'w', encoding='utf-8-sig') as f:
-            f.write('comment_id,comment_content,comment_user,praise,date\n')
+            f.write('comment_id,comment_user,comment_content,praise,date\n')
 
         for song in songs:
             song_id = song['song_id']
@@ -96,13 +117,13 @@ def main():
             for page in range(0, 41):
                 print(f'\n---------------第 {page} 页---------------')
                 try:
-                    comments = get_comments_qq(song_id, page)
+                    comments = get_comments_qq(song_id, page, proxies)
                     all_comments.extend(comments)
                 except Exception as e:
                     print(f'获取评论失败: {e}')
                     break
             save_comments_to_csv(all_comments, os.path.join(output_dir, output_file))
-            time.sleep(0.1)
+            time.sleep(1)
 
 if __name__ == '__main__':
     main()
