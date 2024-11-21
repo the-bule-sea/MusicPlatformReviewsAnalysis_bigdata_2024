@@ -4,7 +4,7 @@ import requests
 
 def load_proxies(proxy_file_path):
     with open(proxy_file_path, 'r') as f:
-        proxies = [line.strip() for line in f.readline()]
+        proxies = [line.strip() for line in f.readlines()]
     return proxies
 
 def main():
