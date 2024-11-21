@@ -38,8 +38,8 @@ def get_comments_qq(song_id, page, proxies):
     # 随机挑选代理ip
     proxy = random.choice(proxies)
     proxy_dict = {
-        'http': f'http://{proxy}',
-        'https': f'http://{proxy}'
+        "http": "http://{}".format(proxy),
+        # 'https': f'http://{proxy}'
     }
 
     response = requests.get(url=url, headers=headers, proxies=proxy_dict)
