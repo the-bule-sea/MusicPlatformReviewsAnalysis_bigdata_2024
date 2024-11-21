@@ -1,5 +1,5 @@
 import time
-
+import random
 import requests
 
 def load_proxies(proxy_file_path):
@@ -9,11 +9,11 @@ def load_proxies(proxy_file_path):
 
 def main():
     proxy_file_path = 'proxy.txt'
-    proxies = load_proxies(proxy_file_path)
-    url = "https://mail.163.com/"
-    for proxy in proxies:
-        print("当前代理IP"+proxy)
-        r = requests.get(url ,proxies={"http": proxy, "https": proxy})
+    while True:
+        proxies = random.choice(load_proxies(proxy_file_path))
+        url = "https://mail.163.com/"
+        print("当前代理IP"+proxies)
+        r = requests.get(url ,proxies={"http": "http://{}".format(proxies)})
         print(r.status_code)
         time.sleep(5)
 
