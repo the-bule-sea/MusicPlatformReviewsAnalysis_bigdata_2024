@@ -30,7 +30,7 @@ headers = {
     'User-Agent': random.choice(user_agent_pool)
 }
 
-def get_comments_qq(song_id, page, proxies):
+def get_comments_qq(song_id, song_name, page, proxies):
     """
     获取QQ音乐评论信息
     """
@@ -52,6 +52,7 @@ def get_comments_qq(song_id, page, proxies):
         print(f"获取歌曲 {song_id} 的评论失败")
         return []
 
+    song_id2 = str(song_id)
     comments = []
     time.sleep(1)
     for comment_type in ['comment', 'hot_comment']:
@@ -72,7 +73,7 @@ def get_comments_qq(song_id, page, proxies):
                 # 评论时间
                 date = time.localtime(int(item['time']))
                 date = time.strftime("%Y-%m-%d %H:%M:%S", date)
-                comments.append((comment_id, comment_user, comment_content, praise, date))
+                comments.append((song_id2, song_name, comment_id, comment_user, comment_content, praise, date))
                 print((comment_id, comment_user, comment_content, praise, date))
     return comments
 
@@ -87,7 +88,8 @@ def load_proxies(proxy_file_path):
     return proxies
 
 def main():
-    regions = ['日本2','国内2','欧美2']
+    # regions = ['日本','国内','欧美']
+    regions = ['日本']
     #  加载ip池
     proxy_file_path = 'proxy.txt'
     proxies = load_proxies(proxy_file_path)
@@ -108,16 +110,17 @@ def main():
             songs = json.load(f)
 
         with open(os.path.join(output_dir, output_file), 'w', encoding='utf-8-sig') as f:
-            f.write('comment_id,comment_user,comment_content,praise,date\n')
+            f.write('song_id,song_name,comment_id,comment_user,comment_content,praise,date\n')
 
         for song in songs:
             song_id = song['song_id']
+            song_name = song['song_name']
             print(f'正在获取歌曲 {song["song_name"]} ({song_id}) 的评论')
             all_comments = []
             for page in range(0, 41):
                 print(f'\n---------------第 {page} 页---------------')
                 try:
-                    comments = get_comments_qq(song_id, page, proxies)
+                    comments = get_comments_qq(song_id, song_name, page, proxies)
                     all_comments.extend(comments)
                 except Exception as e:
                     print(f'获取评论失败: {e}')
